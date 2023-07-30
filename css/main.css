@@ -1,4 +1,12 @@
 .sidebar {
     width: 252px;
     height: 100vh;
+    background-color: green;
+}
+
+.logo {
+}
+.nav {
+}
+.help {
 }
