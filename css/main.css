@@ -145,18 +145,36 @@
     position: relative;
 }
 
-.nav-header-link-text.active::after {
+
+.nav-header-link-text::after {
     position: absolute;
-    right: 0;
     left: 0;
-    bottom: 0;
+    width: 0%;
+    bottom: -9px;
 
     display: block;
     content: "";
-    width: 72px;
+    height: 2px;
+    background-color: #000;
+    transition: width 0.2s ease-in;
+}
+
+
+.nav-header-link-text.active::after {
+    position: absolute;
+    left: 0;
+    width: 0%;
+    bottom: -9px;
+
+    display: block;
+    content: "";
     height: 2px;
     background-color: #000;
     
+}
+
+.nav-header-link-text:hover::after {
+    width: 100%;
 }
 
 .nav-header-link-text + .nav-header-link-text {
