@@ -83,6 +83,7 @@
 
 /* Main */
 .main {
+    padding-top: 45px;
     width: 1110px;
     background-color: aqua;
 }
@@ -128,6 +129,9 @@
 /* Nav-header */
 
 .nav-header {
+    font-size: 17px;
+    font-family: 'Circular Std';
+    font-weight: 500;
 
 }
 
@@ -137,15 +141,33 @@
 
 }
 
-.nav-header-list-text + .nav-header-list-text {
+.nav-header-link-text {
+    position: relative;
+}
+
+.nav-header-link-text.active::after {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+    display: block;
+    content: "";
+    width: 72px;
+    height: 2px;
+    background-color: #000;
+    
+}
+
+.nav-header-link-text + .nav-header-link-text {
     margin-left: 42px;
 
 }
 
-.nav-header-list-text + .nav-header-list-icon {
+.nav-header-link-text + .nav-header-link-icon {
     margin-left: 50px;
 }
 
-.nav-header-list-icon + .nav-header-list-icon {
+.nav-header-link-icon + .nav-header-link-icon {
     margin-left: 25px;
 }
