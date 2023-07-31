@@ -6,7 +6,7 @@
     align-items: flex-start;
     padding: 50px 15px 60px 55px;
     width: 252px;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .sidebar-logo {
@@ -22,7 +22,7 @@
 .nav-title {
     margin-bottom: 44px;
     font-weight: 700;
-    font-style: 30px;
+    font-size: 30px;
   
 }
 
@@ -79,4 +79,42 @@
     margin-right: 15px;
     vertical-align: middle;
     
+}
+
+/* Main */
+.main {
+    width: 1110px;
+    background-color: aqua;
+}
+
+.search {
+    width: 490px;
+    height: 44px;
+}
+
+.search-label {
+    height: 100%;
+    display: flex;
+}
+
+.search-icon {
+}
+
+.search-input {
+    padding: 0 17px;
+    flex-grow: 1;
+    
+    font-family: 'Circular Std';
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.search-input::placeholder {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+
+.header-nav {
+}
+.header-user {
 }
