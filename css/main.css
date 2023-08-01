@@ -85,7 +85,6 @@
 .main {
     padding-top: 45px;
     width: 1110px;
-    background-color: aqua;
 }
 
 /* Header */
@@ -191,14 +190,47 @@
     margin-left: 25px;
 }
 
-/* Cards */
+/* Cards wrapper*/
 .cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
 }
+
 .cards-wrapper-row {
+    display: flex;
+    column-gap: 20px;
 }
+
 .cards-wrapper-col {
 }
+
 .col-horizontal {
+    display: flex;
+    column-gap: 20px;
 }
+
 .col-vertical {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+/* Cards */
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-horizontal {
+    width: 539px;
+    height: 180px;
+}
+
+
+.card-sale {
+    background-image: url('./../img/cards/Vector\ 1.svg');
+    background-size: cover;
+    background-position: center;
 }
