@@ -94,6 +94,7 @@
     align-items: center;
     justify-content: space-between;
     column-gap: 30px;
+    margin-bottom: 70px;;
 }
 
 
@@ -188,4 +189,16 @@
 
 .nav-header-link-icon + .nav-header-link-icon {
     margin-left: 25px;
+}
+
+/* Cards */
+.cards-wrapper {
+}
+.cards-wrapper-row {
+}
+.cards-wrapper-col {
+}
+.col-horizontal {
+}
+.col-vertical {
 }
