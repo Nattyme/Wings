@@ -269,10 +269,21 @@
     
 }
 
-.card-product-fav-btn img {
+.card-product-fav-btn svg {
     display: inline-block;
     vertical-align: middle;
+
+    stroke: black;
+    fill: #fff;
+
+    transition: all 0.2s ease-in;
     
+}
+
+.card-product-fav-btn:hover svg {
+    stroke: #fd2e24;
+    fill: #fd2e24;
+
 }
 
 .card-product-image {
