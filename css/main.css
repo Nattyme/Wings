@@ -307,10 +307,15 @@
     font-size: 26px;
     font-weight: 700;
     margin-bottom: 10px;
-    color: #001AA2;;
+    color: #001AA2;
+    
 }
 
-.card-section-desk {
+.card-section-desk  {
     font-size: 15px;
     font-weight: 500;
+}
+
+.card-red {
+    color: #FD2E24;
 }
