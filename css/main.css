@@ -239,7 +239,6 @@
 
 
 .card-sale {
-
     background-size: cover;
     background-position: center;
 }
@@ -292,4 +291,26 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+
+.card-section {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.card-section-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #001AA2;;
+}
+
+.card-section-desk {
+    font-size: 15px;
+    font-weight: 500;
 }
