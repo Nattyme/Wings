@@ -40,7 +40,7 @@
 }
 
 .nav-list a:hover {
-    transform: translateX(-20px);
+    transform: translateY(-3px);
     color: #fd2e24;
 }
 
@@ -108,18 +108,24 @@
 }
 
 .search-icon {
-    height: 24px;
-    width: 24px;
-    align-self: center;
+    margin-right: 5px;
 }
 
 .search-input {
     padding: 0 17px;
     flex-grow: 1;
+    border-radius: 15px;
     
     font-family: 'Circular Std';
     font-size: 17px;
     font-weight: 500;
+    background: none;
+}
+
+
+.search-input:focus,
+.search-input:active {
+    background-color: #fff;
 }
 
 .search-input::placeholder {
