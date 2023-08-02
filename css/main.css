@@ -223,6 +223,12 @@
 .card {
     border-radius: 15px;
     overflow: hidden;
+    transition: all 0.2s ease-in;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgb(127, 192, 193);
 }
 
 .card-horizontal {
